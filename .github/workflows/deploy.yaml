@@ -20,6 +20,7 @@ jobs:
       - name: Install dependencies
         run: go mod download
 
+      # TODO: 1
       - name: Run tests
         run: go test ./...
 
